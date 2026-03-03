@@ -1,0 +1,6 @@
+@Segundo_HostAddress = http://localhost:5166
+
+GET {{Segundo_HostAddress}}/GetDez/
+Accept: application/json
+
+###
