@@ -2,5 +2,5 @@ namespace Quarto;
 
 public class DataAtual
 {
-    public DateOnly DataAtual { get; set; }
+    public DateTime DataAtual { get; set; }
 }

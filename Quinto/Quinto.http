@@ -1,0 +1,6 @@
+@Quinto_HostAddress = http://localhost:5102
+
+GET {{Quinto_HostAddress}}/DataAtualComNumeroRandom/
+Accept: application/json
+
+###
