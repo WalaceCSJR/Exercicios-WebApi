@@ -1,0 +1,6 @@
+@Quarto_HostAddress = http://localhost:5042
+
+GET {{Quarto_HostAddress}}/DataAtual/
+Accept: application/json
+
+###
