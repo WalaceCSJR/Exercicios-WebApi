@@ -1,0 +1,6 @@
+@Segundodto_HostAddress = http://localhost:5239
+
+GET {{Segundodto_HostAddress}}/VerificacaoMaioridade/
+Accept: application/json
+
+###
