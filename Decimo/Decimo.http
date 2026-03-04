@@ -1,0 +1,6 @@
+@Decimo_HostAddress = http://localhost:5049
+
+GET {{Decimo_HostAddress}}/DeleteUsuario/
+Accept: application/json
+
+###
