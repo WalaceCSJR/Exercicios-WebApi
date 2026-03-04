@@ -1,0 +1,6 @@
+@Primeirodto_HostAddress = http://localhost:5108
+
+GET {{Primeirodto_HostAddress}}/DadosPessoais/
+Accept: application/json
+
+###
