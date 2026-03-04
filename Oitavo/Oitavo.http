@@ -1,0 +1,6 @@
+@Oitavo_HostAddress = http://localhost:5268
+
+GET {{Oitavo_HostAddress}}/VerificaIdade/
+Accept: application/json
+
+###
