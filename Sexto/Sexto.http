@@ -1,0 +1,6 @@
+@Sexto_HostAddress = http://localhost:5208
+
+GET {{Sexto_HostAddress}}/NomeUsuario/
+Accept: application/json
+
+###
