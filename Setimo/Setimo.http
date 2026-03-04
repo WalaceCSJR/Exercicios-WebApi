@@ -1,0 +1,6 @@
+@Setimo_HostAddress = http://localhost:5137
+
+GET {{Setimo_HostAddress}}/NomeIdade/
+Accept: application/json
+
+###
