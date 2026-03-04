@@ -23,3 +23,27 @@ Se a idade for menor que 20, ele retorne o texto: Você não está liberado para
 9 - Construa um método httpPost que, passando um parâmetro FromQuery, que deve ser a idade, ele mostre no retorno do console a idade passada.
 
 10 - Constroa um método HttpDelete que, passando o ID, do tipo inteiro no parâmetro FromQuery, ele retorne: "O usuário do id 'ID' foi deletado".
+
+
+Novos Exercicios
+
+1:
+- Criar um método http post para enviar um objeto(dados de uma pessoa[nome e idade]) json pelo body. Este método deve retornar o objeto do tipo IActionResult
+- Criar uma classe DTO para receber os dados de uma pessoa pelo httpPost
+- retornar o DTO (onde o net webapi converterá para json) com todos os dados recebidos.
+
+
+2:
+- Criar um método http post para enviar um objeto(dados de uma pessoa[idade]) json pelo body. Este método deve retornar o objeto do tipo IActionResult
+- Criar uma classe DTO para receber os dados de uma pessoa pelo httpPost
+- Criar uma classe chamada PessoaService e implementar(a lógica) nessa classe o método que verifica se pessoa é de maior ou de menor. Se for de maior, retorna "true", se for de menor retorna "false".
+- 
+
+3:
+- Criar um método http post para enviar um objeto(dados de uma pessoa[nome, sobrenome, data de nascimento) json pelo body. Este método deve retornar o objeto do tipo IActionResult
+- Criar uma classe DTO para receber os dados de uma pessoa pelo httpPost
+- Criar uma classe chamada pessoaService e implementar a lógica:
+Se o nome for vazio, retornar: Nome vazio
+Se o sobrenome for vazio, retornar: Sobrenome vazio
+Se a idade for menor que 18 anos, retornar: Não é possível dar seguimento. (NOME) é de menor.
+Se o dia e o mes forem os mesmos que hoje, então retornar: FEliz aniversário!
