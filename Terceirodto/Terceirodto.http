@@ -1,0 +1,6 @@
+@Terceirodto_HostAddress = http://localhost:5087
+
+GET {{Terceirodto_HostAddress}}/DadosPessoais/
+Accept: application/json
+
+###
